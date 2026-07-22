@@ -29,6 +29,22 @@ pip install -r requirements.txt
 
 **Note**: If you encounter any missing packages, please install them manually using `pip install <package>`.
 
+## Data Availability & Licensing
+### Public Reference Datasets
+- **MP-20 Dataset**: The primary dataset for LLM fine-tuning, refinement module training, and Property Match Rate (PMR) evaluation is sourced from the Materials Project database.
+  We do **not** redistribute the raw MP-20 dataset in this repository due to file size and open license restrictions.
+  The dataset is publicly available via the [Materials Project official website](https://materialsproject.org/), and can be automatically downloaded and preprocessed using the provided script (`scripts/download_mp20.py`).
+
+- **Matbench Discovery Benchmark**: The convex-hull stability analysis (energy above hull) uses the Matbench Discovery benchmark as the reference standard.
+  It is a widely-adopted benchmark for crystal stability prediction, released by the Materials Project team.
+  - Dataset DOI: [10.6084/m9.figshare.22715158](https://doi.org/10.6084/m9.figshare.22715158)
+  - It provides DFT-relaxed crystal structures and thermodynamic stability labels, serving as the ground-truth baseline for our stability evaluation pipeline.
+
+### Derived Training Data
+- The Stage-1 condition-aware generation dataset and Stage-2 correction-oriented fine-tuning dataset are **constructed in-house based on the public MP-20 dataset**.
+- Full data construction scripts are provided in this repository (`stage2_data_builder.py`). Users can reproduce the complete training data locally after obtaining the raw MP-20 dataset.
+- The example generated structures in the `samples/` directory are produced by the IRLCrys framework and are free for non-commercial research use.
+
 ### Data Preparation (MP-20)
 
 We do **not** redistribute the MP-20 dataset directly in this repository due to file size and licensing restrictions. The MP-20 dataset is publicly available via the **Materials Project**.
