@@ -1,0 +1,156 @@
+sample_idx,all_satisfied,n_llm_interventions,final_comp_mismatch,final_sg_mismatch,final_ef_deviation,cif
+0,False,11,False,True,6.405006313323975,"# generated using pymatgen
+data_FeO
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   2.90000000
+_cell_length_b   2.90000000
+_cell_length_c   5.40000000
+_cell_angle_alpha   94.00000000
+_cell_angle_beta   95.00000000
+_cell_angle_gamma   95.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   FeO
+_chemical_formula_sum   'Fe2 O2'
+_cell_volume   44.93191551
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Fe  Fe0  1  0.18000000  0.00000000  0.16000000  1
+  Fe  Fe1  1  0.68000000  0.00000000  0.66000000  1
+  O  O2  1  0.93000000  0.50000000  0.91000000  1
+  O  O3  1  0.43000000  0.50000000  0.42000000  1
+"
+1,False,11,False,True,6.193533802032471,"# generated using pymatgen
+data_FeO
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.10000000
+_cell_length_b   3.20000000
+_cell_length_c   5.40000000
+_cell_angle_alpha   95.00000000
+_cell_angle_beta   97.00000000
+_cell_angle_gamma   113.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   FeO
+_chemical_formula_sum   'Fe2 O2'
+_cell_volume   48.40664058
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Fe  Fe0  1  0.28000000  0.90000000  0.18000000  1
+  Fe  Fe1  1  0.28000000  0.40000000  0.67000000  1
+  O  O2  1  0.03000000  0.64000000  0.42000000  1
+  O  O3  1  0.56000000  0.13000000  0.92000000  1
+"
+2,True,7,False,False,6.1753534317016605,"# generated using pymatgen
+data_FeO
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   2.71704213
+_cell_length_b   2.87937022
+_cell_length_c   5.34598086
+_cell_angle_alpha   88.63861806
+_cell_angle_beta   72.46614612
+_cell_angle_gamma   66.46811750
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   FeO
+_chemical_formula_sum   'Fe2 O2'
+_cell_volume   36.34033922
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Fe  Fe0  1  0.20338087  0.93398328  0.04700230  1
+  Fe  Fe1  1  0.68283158  0.44538526  0.55214654  1
+  O  O2  1  0.94849699  0.68789921  0.82355419  1
+  O  O3  1  0.45367582  0.20680571  0.30533307  1
+"
+3,True,7,False,False,6.400833034515381,"# generated using pymatgen
+data_FeO
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   2.79585853
+_cell_length_b   2.82504561
+_cell_length_c   5.09998237
+_cell_angle_alpha   87.89881936
+_cell_angle_beta   94.77678520
+_cell_angle_gamma   108.04439805
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   FeO
+_chemical_formula_sum   'Fe2 O2'
+_cell_volume   38.16510994
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Fe  Fe0  1  0.69789795  0.03368351  0.41831844  1
+  Fe  Fe1  1  0.38192830  0.35016308  0.92321175  1
+  O  O2  1  0.03570810  0.71974225  0.66991923  1
+  O  O3  1  0.04431623  0.70889701  0.16666407  1
+"
+4,False,11,False,True,6.050737285614014,"# generated using pymatgen
+data_FeO
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   2.61797195
+_cell_length_b   2.70000000
+_cell_length_c   6.86681953
+_cell_angle_alpha   79.38091162
+_cell_angle_beta   79.01075201
+_cell_angle_gamma   61.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   FeO
+_chemical_formula_sum   'Fe2 O2'
+_cell_volume   41.43486551
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Fe  Fe0  1  0.05000000  0.53000000  0.64000000  1
+  Fe  Fe1  1  0.20000000  0.68000000  0.19000000  1
+  O  O2  1  0.31000000  0.80000000  0.85000000  1
+  O  O3  1  0.46000000  0.94000000  0.41000000  1
+"
