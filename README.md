@@ -1,16 +1,11 @@
-# IRLCrys: Iterative Reasoning with LLM for Multi-Conditional Crystal Structure Generation
+# Iterative LLM-Guided Correction for Multi-Constraint Inverse Design of Crystal Structures
 
 [![Code](https://img.shields.io/badge/Code-GitHub-blue)](https://github.com/Cynthia1505/IRLCrys)
 
-This repository contains the official code release for our paper [*"IRLCrys: Iterative Reasoning with LLM for Multi-Conditional Crystal Structure Generation"*], 
+This repository contains the official code release for our paper [*"Iterative LLM-Guided Correction for Multi-Constraint Inverse Design of Crystal Structures"*], 
 
 
-IRLCrys introduces an **iterative reasoning** paradigm that repositions the LLM from a one-shot generator to a **condition-aware reasoner**, effectively maintaining multi-conditional constraints throughout the entire diffusion/flow-matching refinement process. Key contributions of IRLCrys are:
-- **Iterative Reasoning Loop**: The LLM continuously observes intermediate structures, reasons about deviations from target conditions (composition, space group, formation energy, band gap), and outputs corrective guidance at each key refinement step.
-- **Correction-Oriented Fine-Tuning (Stage 2)**: A second-stage fine-tuning equips the LLM with structural repair capability, enabling it to correct both continuous variable deviations and atomic composition errors.
-- **Adaptive Deviation Detection**: During inference, lightweight neural surrogate predictors (CHGNet, ALIGNN) detect deviations in real-time, triggering LLM corrections only when necessary (lightweight for coordinates, heavyweight for atom types).
-- **Order-of-Magnitude PMR Improvement**: On the MP-20 dataset, IRLCrys achieves nearly an order-of-magnitude improvement in Property Match Rate (PMR) under four simultaneous physical constraints compared to prior hybrid frameworks (FlowLLM, CrysLLMGen).
-- **Generalizable Paradigm**: Extends the "state observation → deviation reasoning → corrective guidance" paradigm from linguistic tasks to structured scientific generation.
+Inverse design of crystal structures aims to discover materials that simultaneously satisfy prescribed chemical, structural, and physical constraints. However, existing hybrid frameworks combining large language models (LLMs) with geometric refinement modules often suffer from constraint drift, as the LLM generates an initial structure only once, while subsequent refinement proceeds without explicit awareness of the target conditions. To address this challenge, we propose IRLCrys, an iterative LLM-guided correction framework for multi-constraint crystal structure inverse design. IRLCrys introduces correction-oriented fine-tuning to equip the LLM with the ability to repair imperfect intermediate structures and an adaptive deviation detection mechanism that triggers LLM-guided corrections during refinement. This feedback-driven process maintains target constraints throughout crystal generation. Experiments demonstrate that IRLCrys achieves joint constraint satisfaction rates of 10.8\% and 12.5\%, respectively, compared with 0.8–1.2\% for existing hybrid baselines under four simultaneous constraints. Ablation studies further demonstrate the complementary contributions of correction-oriented fine-tuning and iterative intervention. These results establish IRLCrys as a framework for feedback-driven, multi-constraint crystal structure inverse design.
 
 <p align="center">
   <img src="IRLCrys.png" alt="IRLCrys Framework" width="80%">
