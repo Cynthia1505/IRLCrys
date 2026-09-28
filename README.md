@@ -8,7 +8,7 @@ This repository contains the official code release for our paper [*"Iterative LL
 Inverse design of crystal structures aims to discover materials that simultaneously satisfy prescribed chemical, structural, and physical constraints. However, existing hybrid frameworks combining large language models (LLMs) with geometric refinement modules often suffer from constraint drift, as the LLM generates an initial structure only once, while subsequent refinement proceeds without explicit awareness of the target conditions. To address this challenge, we propose IRLCrys, an iterative LLM-guided correction framework for multi-constraint crystal structure inverse design. IRLCrys introduces correction-oriented fine-tuning to equip the LLM with the ability to repair imperfect intermediate structures and an adaptive deviation detection mechanism that triggers LLM-guided corrections during refinement. This feedback-driven process maintains target constraints throughout crystal generation. Experiments demonstrate that IRLCrys achieves joint constraint satisfaction rates of 10.8\% and 12.5\%, respectively, compared with 0.8–1.2\% for existing hybrid baselines under four simultaneous constraints. Ablation studies further demonstrate the complementary contributions of correction-oriented fine-tuning and iterative intervention. These results establish IRLCrys as a framework for feedback-driven, multi-constraint crystal structure inverse design.
 
 <p align="center">
-  <img src="IRLCrys.png" alt="IRLCrys Framework" width="80%">
+  <img src="1_1.png" alt="IRLCrys Framework" width="80%">
 </p>
 
 
